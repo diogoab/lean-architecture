@@ -3,6 +3,7 @@
 # Proposed Architecture Overview
 
 ![reference-arquitecture](./img/reference.png)
+link: https://drive.google.com/file/d/1UeQPTQ6hfuBZqKyxUR0AvLbh0ofEXm3-/view?usp=sharing
 
 ## 1. Ingress & Edge Layer
 To ensure a secure and resilient entry point, I opted for a **Global Cloud Load Balancing** setup. This gives us a single public VIP, managed SSL/TLS certificates, and distributed health checks right at the edge. 
