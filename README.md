@@ -2,6 +2,8 @@
 
 # Proposed Architecture Overview
 
+### The purpose of this material is to represent an on-premises to cloud migration.
+
 ![reference-arquitecture](./img/reference.png)
 link: https://drive.google.com/file/d/1UeQPTQ6hfuBZqKyxUR0AvLbh0ofEXm3-/view?usp=sharing
 
