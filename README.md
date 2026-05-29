@@ -181,3 +181,16 @@ repos/
 │   └── README.md
 
 ```
+
+### Reference
+https://cloud.google.com/security/products/armor
+https://cloud.google.com/kubernetes-engine?hl=pt-BR
+https://cloud.google.com/load-balancing
+https://cloud.google.com/sql
+https://cloud.google.com/logging
+https://cloud.google.com/monitoring
+https://docs.cloud.google.com/network-connectivity/docs/vpn/concepts/overview?hl=pt-br
+https://cloud.google.com/security/products/security-key-management
+https://cloud.google.com/security/products/secret-manager
+https://docs.cloud.google.com/network-connectivity/docs/interconnect/concepts/overview?hl=pt-br
+https://docs.cloud.google.com/network-connectivity/docs/router/concepts/overview?hl=pt-br
