@@ -37,7 +37,7 @@ Within the network, I’d isolate subnets by function:
 * A **private database subnet** dedicated strictly to the Cloud SQL instances.
 
 To allow our private instances to fetch patches or talk to external APIs securely without exposing public IPs, I’d deploy **Cloud NAT**.
-
+```
 [Internet]
 │
 ▼
@@ -48,6 +48,7 @@ To allow our private instances to fetch patches or talk to external APIs securel
 │
 ▼
 [Cloud SQL HA]             (Private DB Subnet)
+```
 
 ### Internal Connectivity & Hybrid Networking
 The application must communicate with the database exclusively over private IPs. We can achieve this cleanly using **Private Service Connect (PSC)** or private IP networking for Cloud SQL to completely bypass the public internet. 
@@ -118,6 +119,7 @@ To ensure this failover is seamless, the application code must remain strictly i
 
 ### High-Level susgest Ansible and Terraform Manifests
 
+```
 repos/
 ├── terraform/
 │   ├── modules/
@@ -173,3 +175,5 @@ repos/
 │   ├── ansible.cfg
 │   ├── requirements.yml
 │   └── README.md
+
+```
